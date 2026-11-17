@@ -1,0 +1,4 @@
+# only needed to retrain the model (python -m training.train); the versions the shipped model was fitted with
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1

@@ -1,0 +1,10 @@
+# the match data is licensed for the competition only and must never be committed
+data/
+results/
+*.csv
+# public Metrica sample games are cloned at training time, not vendored
+training/sample-data/
+training/games_cache.pkl
+models/*_holdout*.npz
+__pycache__/
+*.pyc
